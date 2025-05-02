@@ -1,0 +1,82 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+header {
+    background-color: #0056b3;
+    color: white;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #E31937; /* Rojo Domino's */
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(rgba(0, 86, 179, 0.8), rgba(0, 86, 179, 0.8)), 
+                url('https://via.placeholder.com/1200x400?text=D+LEAGUE');
+    background-size: cover;
+    text-align: center;
+    padding: 5em 0;
+    color: white;
+}
+
+.hero span {
+    color: #E31937;
+}
+
+/* Secciones de ligas */
+.liga {
+    padding: 3em;
+    text-align: center;
+}
+
+.basket {
+    background-color: #0056b3;
+    color: white;
+}
+
+.soccer {
+    background-color: #E31937;
+    color: white;
+}
+
+.btn {
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* Patrocinadores */
+.patrocinadores {
+    text-align: center;
+    padding: 2em;
+    background-color: #f0f0f0;
+}
+
+/* Footer */
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
